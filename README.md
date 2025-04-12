@@ -1,5 +1,5 @@
 # Walmart Sales MYSQL Project
-![Walmart Logo](walmart-logo.jpg)
+![Walmart Logo](walmart-logo.png)
 
 
 
