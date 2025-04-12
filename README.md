@@ -1,7 +1,6 @@
-# Walmart Sales MYSQL Project
+# Walmart Sales MySQL Project
+
 ![Walmart Logo](walmart-logo.png)
-
-
 
 ## 📊 Overview
 
