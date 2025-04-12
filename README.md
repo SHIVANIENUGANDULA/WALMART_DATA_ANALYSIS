@@ -1,5 +1,7 @@
 # WALMART_DATA_ANALYSIS
-!(Walmart_logo.png)
+<p align="center">
+  <img src="Walmart_logo.png" alt="Walmart Logo" width="150">
+</p>
 
 # Walmart Sales SQL Project
 
