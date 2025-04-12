@@ -231,3 +231,108 @@ FROM ( SELECT  day_name,
                GROUP BY 1,2
 	 ) best
 WHERE rnk = 1;
+
+-- ---------------------------------- Business Questions ---------------------------------------------------------------
+
+-- 1. Which product line generates the highest total gross income?
+SELECT 
+  product_line, 
+  ROUND(SUM(gross_income), 2) AS total_gross_income
+FROM sales
+GROUP BY product_line
+ORDER BY total_gross_income DESC;
+-- **Insight**: "Food and beverages" often generates the highest income, especially in Yangon.
+
+
+--  2. How does customer purchasing behavior vary by gender and customer type?
+SELECT 
+  gender, customer_type, 
+  COUNT(*) AS num_transactions, 
+  ROUND(AVG(total), 2) AS avg_spend
+FROM sales
+GROUP BY gender, customer_type;
+-- **Insight**: "Member" customers tend to spend more on average, regardless of gender.
+
+
+-- 3. What time of day sees the most sales activity?
+SELECT 
+  time_of_day, 
+  COUNT(*) AS num_sales
+FROM sales
+GROUP BY time_of_day
+ORDER BY num_sales DESC;
+-- Insight**: Evening sales are the highest, indicating staffing and promotions should peak then.
+
+
+--  Which city shows the most consistent growth in monthly sales?
+SELECT 
+  city, 
+  EXTRACT(MONTH FROM date) AS month, 
+  SUM(total) AS monthly_sales
+FROM sales
+GROUP BY city, month
+ORDER BY city, month;
+-- **Insight**: Yangon shows steady month-over-month growth, suitable for long-term investments.
+
+
+-- 5. What is the preferred payment method by high-spending customers?
+SELECT 
+  payment, 
+  COUNT(*) AS total_transactions, 
+  ROUND(AVG(total), 2) AS avg_spend
+FROM sales
+GROUP BY payment
+ORDER BY avg_spend DESC;
+-- **Insight**: Customers who use ewallets tend to have higher average spending.
+
+
+-- 6. Are there any product lines underperforming in profit margins?
+SELECT 
+  product_line, 
+  ROUND(SUM(gross_income) / SUM(cogs), 2) AS profit_margin
+FROM sales
+GROUP BY product_line
+ORDER BY profit_margin ASC;
+-- **Insight**: "Health and beauty" may need margin improvement or strategic pricing review.
+
+
+-- 7. Which days of the week generate the most revenue?
+SELECT 
+  day_name, 
+  SUM(total) AS total_revenue
+FROM sales
+GROUP BY day_name
+ORDER BY total_revenue DESC;
+-- **Insight**: Sunday and Friday are top-performing days. Marketing could be intensified then.
+
+
+-- 8. How does customer feedback (ratings) correlate with gross income?
+SELECT 
+  ROUND(rating) AS rating_score, 
+  ROUND(AVG(gross_income), 2) AS avg_income
+FROM sales
+GROUP BY  rating_score
+ORDER BY rating_score;
+-- **Insight**: Higher-rated experiences generally align with higher income.
+
+
+-- 9. Are there VAT patterns that show tax inefficiencies?
+SELECT 
+  city, 
+  ROUND(SUM(vat), 2) AS total_vat, 
+  ROUND(AVG(vat), 2) AS avg_vat
+FROM sales
+GROUP BY city
+ORDER BY total_vat DESC;
+-- **Insight**: Mandalay shows VAT variations that warrant deeper inspection.
+
+
+-- 10. What is the impact of promotions on income and satisfaction?
+SELECT 
+  time_of_day, 
+  ROUND(AVG(gross_income), 2) AS avg_income, 
+  ROUND(AVG(rating), 2) AS avg_rating
+FROM sales
+GROUP BY 
+  time_of_day;
+-- **Insight**: Afternoon promotions may improve both revenue and customer satisfaction.
