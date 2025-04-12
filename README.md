@@ -95,3 +95,22 @@ Total = COGS + VAT
 Gross Income = Total - COGS
 Gross Margin % = Gross Income / Total
 
+## 📂 Files in This Repo
+
+- `WalmartSalesDate.csv`: Raw dataset
+- `Schemas.sql`: Table creation script
+- `Questions.md`: Some real life Business problems
+- `Solutions.sql`: Business problem solutions
+- `walmart-logo.png`: Walmart Logo
+- `README.md`: You're reading it 🙂
+
+---
+
+## 🙋‍♀️ About Me
+
+Hi, I’m Shivani – a data analyst passionate about turning numbers into actionable stories. I built this project to deepen my SQL skills and showcase how even simple queries can unlock meaningful insights from entertainment data.
+
+Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/shivanienugandula/)
+
+
+---
