@@ -1,5 +1,3 @@
-# WALMART Sales DATA ANALYSIS
-
 # Walmart Sales SQL Project
 
 ## 📊 Overview
