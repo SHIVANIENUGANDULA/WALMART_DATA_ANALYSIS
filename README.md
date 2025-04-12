@@ -88,11 +88,11 @@ Several new features were derived to deepen analysis:
 
 ## 🧮 Revenue & Margin Formulas
 
-COGS = unit_price × quantity
-VAT = 5% × COGS
-Total = COGS + VAT
-Gross Income = Total - COGS
-Gross Margin % = Gross Income / Total
+- COGS = unit_price × quantity
+- VAT = 5% × COGS
+- Total = COGS + VAT
+- Gross Income = Total - COGS
+- Gross Margin % = Gross Income / Total
 
 --- 
 
