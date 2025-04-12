@@ -76,6 +76,19 @@ Several new features were derived to deepen analysis:
 
 ---
 
+## 💼 Real-World Business Questions
+
+This section simulates real-life analytical scenarios that Walmart stakeholders may encounter. It helps demonstrate how SQL and data analytics can answer business-critical questions.
+
+### Sample Topics Covered:
+- 📈 Product Profitability and Inventory Efficiency
+- 👥 Customer Segmentation and Behavior
+- ⏰ Time-based Sales Performance
+- 💳 Payment Preferences and Trends
+- 🌍 Regional Branch Comparison
+  
+---
+
 ## 📌 Sample Business Questions Answered
 
 - What is the most common product line by gender?
@@ -83,6 +96,8 @@ Several new features were derived to deepen analysis:
 - What is the customer type distribution?
 - When do customers give the highest ratings?
 - Which day of the week has the best overall performance?
+
+👉 You can find the questions in [`questions.md`](./questions.md) and detailed SQL-based answers in [`solutions.sql`](./solutions.sql)
 
 ---
 
