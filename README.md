@@ -1,7 +1,9 @@
 # Walmart Sales MYSQL Project
-<p align="center">
-  <img src="[https://lofrev.net/wp-content/photos/2016/07/Walmart-Logo.png](https://lofrev.net/walmart-logo-pictures/)" alt="Walmart Logo" width="150">
-</p>
+[<p align="center">
+  <img src="https://1000logos.net/wp-content/uploads/2017/05/Walmart-logo.png" alt="Walmart Logo" width="180">
+</p>](https://raw.githubusercontent.com/SHIVANIENUGANDULA/WALMART_DATA_ANALYSIS/main/walmart_logo.jpg
+)
+
 
 ## 📊 Overview
 
