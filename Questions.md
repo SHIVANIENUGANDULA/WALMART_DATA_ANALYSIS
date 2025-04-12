@@ -38,11 +38,11 @@
 - Which product line generates the highest total gross income, and is it consistent across all branches?**
 - How does customer purchasing behavior vary by gender and customer type?**
 - What time of day sees the most sales activity, and how does it affect staffing needs?**
-4. **Which city shows the most consistent growth in monthly sales?**
-5. **What is the preferred payment method by high-spending customers?**
-6. **Are there any product lines that are underperforming in terms of profit margins and should be reconsidered?**
-7. **Which days of the week generate the most revenue, and should marketing be focused there?**
-8. **How does customer feedback (ratings) correlate with revenue or gross income?**
-9. **Are there any VAT collection patterns that may indicate tax inefficiencies by branch?**
-10. **What is the impact of time-based promotions on gross income and customer satisfaction (rating)?**
+- Which city shows the most consistent growth in monthly sales?**
+- What is the preferred payment method by high-spending customers?**
+- Are there any product lines that are underperforming in terms of profit margins and should be reconsidered?**
+- Which days of the week generate the most revenue, and should marketing be focused there?**
+- How does customer feedback (ratings) correlate with revenue or gross income?**
+- Are there any VAT collection patterns that may indicate tax inefficiencies by branch?**
+- What is the impact of time-based promotions on gross income and customer satisfaction (rating)?**
 
