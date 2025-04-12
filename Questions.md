@@ -1,6 +1,6 @@
 ## 🧠 Generic Questions
-1. How many unique cities does the data have?
-2. In which city is each branch?
+-  How many unique cities does the data have?
+-  In which city is each branch?
 
 ## 🧠 Product Questions
 1.How many unique product lines does the data have?
