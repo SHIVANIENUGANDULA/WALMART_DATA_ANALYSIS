@@ -1,5 +1,8 @@
 # Walmart Sales MYSQL Project
-https://raw.githubusercontent.com/SHIVANIENUGANDULA/WALMART_DATA_ANALYSIS/main/walmart_logo.jpg
+<p align="center">
+  <img src="https://raw.githubusercontent.com/SHIVANIENUGANDULA/WALMART_DATA_ANALYSIS/main/walmart_logo.jpg" alt="Walmart Logo" width="180">
+</p>
+
 
 
 ## 📊 Overview
