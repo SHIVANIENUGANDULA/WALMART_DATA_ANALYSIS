@@ -1,4 +1,4 @@
-# Walmart Sales SQL Project
+# Walmart Sales MYSQL Project
 
 ## 📊 Overview
 
