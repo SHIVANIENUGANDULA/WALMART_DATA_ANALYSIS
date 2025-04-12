@@ -1,5 +1,5 @@
 # WALMART_DATA_ANALYSIS
-![Walmart Logo](Walmart_logo.png)
+!(Walmart_logo.png)
 
 # Walmart Sales SQL Project
 
