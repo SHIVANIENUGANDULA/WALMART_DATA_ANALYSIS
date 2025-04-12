@@ -1,9 +1,5 @@
 # WALMART_DATA_ANALYSIS
-<!-- GOOD -->
-<p align="center">
-  <img src="walmart_logo.webp" alt="" width="150">
-</p>
-
+![Walmart Logo](Walmart_logo.png)
 
 # Walmart Sales SQL Project
 
